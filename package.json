@@ -1,5 +1,5 @@
 {
-  "name": "sna-c18",
+  "name": "SNAC18",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,20 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vallejo1194/SNA-C18.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^6.6.5"
-  },
-
-  "bugs": {
-    "url": "https://github.com/Vallejo1194/SNA-C18/issues"
-  },
-  "homepage": "https://github.com/Vallejo1194/SNA-C18#readme"
+  }
 }

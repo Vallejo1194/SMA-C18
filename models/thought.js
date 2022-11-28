@@ -1,61 +1,51 @@
 const { Schema, model } = require('mongoose');
-
 const ObjectId = require('mongodb').ObjectId;
 
 const formatedDate = (date) => {
-    return `${date.getMonth() + 1}/ ${date.getDate()}/${date.getFullYear()}`;
-
+    return `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;    
 };
 
 const reactionSchema = new Schema(
     {
         reactionId: {
             type: Schema.Types.ObjectId,
-            default: () => new ObjectId(),
+            default: () => new ObjectId(),            
         },
-
         reactionBody: {
-            type: String,
+            type: String, 
             required: true,
-            maxLenght: 280,
-
+            maxLength: 280,
         },
-
         username: {
             type: String,
             required: true,
         },
-
         createdAt: {
             type: Date,
             default: Date.now,
             get: formatedDate,
-
         }
     },
     {
         toJSON: {
             getters: true,
         },
-
     }
 );
 
-const schemaThought = new Schema(
+const schemaTought = new Schema(
     {
-        toughtText: {
+        thoughtText: {
             type: String,
             required: true,
-            minLenght: 1,
-            maxLenght: 280,
+            minLength: 1,
+            maxLength: 280,
         },
-
         createdAt: {
             type: Date,
             default: Date.now,
             get: formatedDate,
         },
-
         username: {
             type: String,
             required: true,
@@ -71,10 +61,10 @@ const schemaThought = new Schema(
     }
 );
 
-schemaThought.virtual('reactionCount').get(function() {
+schemaTought.virtual('reactionCount').get(function() {
     return this.reactions.length;
 });
 
-const Thought = model('tought', schemaThought);
+const Thought = model('thought', schemaTought);
 
 module.exports = Thought;
