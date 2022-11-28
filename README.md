@@ -1,7 +1,5 @@
-# Social Media API
-## _API for a social network web application._
+## Social media API (SMA)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 Command line app that helps you to control of your employees.
 - Register or Delete users.
@@ -11,9 +9,7 @@ Command line app that helps you to control of your employees.
 - [Functionality](#Functionality)
 - [Dependencies](#Dependencies)
 - [Installation](#Installation)
-- [Links](#Links)
-- [Screenshots](#Screenshots)
-- [License](#License)
+- [Deployment](#Deployment)
 - [Contact](#Contact)
 
 ## Functionality
@@ -44,13 +40,7 @@ Clone the repository
 - NPM install 
 - Node server.js
 
-Please, install Node JS, MongoDB and Insomnia 
-
-
-
-## Links
-
-- [Github repository](https://github.com/Vallejo1194/SNA-C18)
+install Node JS, MongoDB and Insomnia 
 
 
 
@@ -149,5 +139,5 @@ For Reactions:
 - David Vallejo 
 
 
-[ https://github.com/aletsmc07](https://github.com/Vallejo1194/SNA-C18)
- [mailto:adrian.vallejo94@gmail.com]
+(https://github.com/Vallejo1194/SNA-C18)
+ mailto:adrian.vallejo94@gmail.com
