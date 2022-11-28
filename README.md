@@ -138,6 +138,8 @@ For Reactions:
 
 - David Vallejo 
 
+Video 
+https://drive.google.com/file/d/1J2Ki3r-AQKO7yU76zf92EuV605r-5a5Z/view
 
 (https://github.com/Vallejo1194/SNA-C18)
  mailto:adrian.vallejo94@gmail.com
