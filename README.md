@@ -24,7 +24,7 @@ Command line app that helps you to control of your employees.
 - Add or remove friends.
 
 
-[Content](#Content)
+
 
 ## Dependencies
 
@@ -35,7 +35,7 @@ This app was made with:
 * Express
 * MONGO DB
 
-[Content](#Content)
+
 
 ## Installation
 
@@ -46,7 +46,7 @@ Clone the repository
 
 Please, install Node JS, MongoDB and Insomnia 
 
-[Content](#Content)
+
 
 ## Links
 
@@ -150,4 +150,4 @@ For Reactions:
 
 
 [ https://github.com/aletsmc07](https://github.com/Vallejo1194/SNA-C18)
- mailto:adrian.vallejo94@gmail.com
+ [mailto:adrian.vallejo94@gmail.com]
